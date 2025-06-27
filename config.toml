@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://quanbinwang.github.io/"
 languageCode = "en"
 title = "Yang Wenting"
 author = "Formspree"
@@ -13,7 +13,8 @@ pygmentsOptions = "linenos=table"
 pygmentsStyle = "friendly"
 footnoteReturnLinkContents = "&#8617;" # ↩
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
-paginate = 3
+[pagination]
+  pagerSize = 3  # 替换旧版 paginate = 3
 preserveTaxonomyNames = true
 
 [params]
